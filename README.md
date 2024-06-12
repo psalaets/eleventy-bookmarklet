@@ -79,11 +79,15 @@ This is an [11ty 2.0](https://www.11ty.dev/) website.
     - set Source: `Deploy from a branch`
     - set Branch: `gh-pages`, then `/ (root)`, then click Save button
 
+The `index.md` content will be served at `https://<github username>.github.io/<repo name>`.
+
 ### GitLab Pages
 
 1. Rename gitlab file: `mv _.gitlab-ci.yml .gitlab-ci.yml`
 2. Commit changes
 3. Push changes to a GitLab repo
+
+The `index.md` content will be served at `https://<gitlab username>.gitlab.io/<repo name>`.
 
 ### Other Providers
 
